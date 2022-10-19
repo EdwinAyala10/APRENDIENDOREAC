@@ -1,0 +1,52 @@
+git clone ruta.... => para descarga un proyecto del git
+git status => estado de los archivos encapsulados
+
+
+git add .  // git add *.php [o la ruta del archivo]
+
+git commit -m "name descripcion"
+
+git log => verficar el commit --- q para salir
+
+git push origin  // git push --set-upstream origin =>  para subir afirmar mis cambios
+
+--git push --set-upstream origin nombre-de-rama => SUGERENCIA DEL XOLO PENDEDJO para subir
+
+git pull origin nombre-de-la-rama = > baja los cambios que otros subieron a esa rama 
+
+git log => los ultimos comit
+
+git remote -v => para ver si el proyecto esta ruteado para hacerle un push
+
+ls => ve todo los archivos y acarpetas
+
+git checkout nombre-rama => cambia de rama
+
+git fetch origin nombre-de-la-rama => para descargar la nueva rama
+
+composer install => para instalar componentes cuando clonas proyecto de GIT
+
+ 
+##### PARA SUBIR MIS CAMBIOS EN DESARROLLO ######
+git pull origin dev-postventa
+
+luego si hay conflicto en los archivos, se puede editar en un editor de texto
+
+git add .
+git commit -m "name descripcion"
+git push origin
+
+luego hacer un 
+
+git pull
+
+luego para que el cambio en Api.php funcion correr la linea
+php artisan optimize 
+
+
+
+
+cache:clear           Flush the application cache
+config:cache          Create a cache file for faster configuration loading
+  config:clear
+
