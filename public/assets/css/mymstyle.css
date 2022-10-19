@@ -1,0 +1,32 @@
+
+.form-check.form-check-solid.chk-dark .form-check-input:checked{
+    background-color: #1e1e2d;
+}
+.c-pointer{
+    cursor: pointer;
+}
+
+.w-140px{
+    width: 140px;
+}
+.w-120px{
+    width: 120px;
+}
+.table-bordered tr td{
+    border: 1px solid #eff2f5 !important;
+}
+.border-b-1{
+    border-bottom: 1px solid #eff2f5 !important;
+}
+.w-50px{
+    width: 50px;
+}
+.b-t-l-r-10{
+    border-top-left-radius: 10px !important ;
+}
+.b-t-r-r-10{
+    border-top-right-radius: 10px !important ;
+}
+@media (min-width: 992px){
+    .w-lg-400px{width:400px!important}
+}
